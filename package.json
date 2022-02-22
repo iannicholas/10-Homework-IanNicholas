@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/iannicholas/10-Homework-IanNicholas#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.0",
+    "jest": "^27.5.1"
   }
 }
