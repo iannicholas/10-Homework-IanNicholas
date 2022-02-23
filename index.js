@@ -84,12 +84,12 @@ const addEmployee = () => {
   ])
 
   .then(employeeData => {
-    let {name, id, email, role, github, school} = employeeData;
+    let {name, id, email, status, github, school} = employeeData;
     let employee;
-    if(role === "Engineer") {
-      employee = nem Engineer (name, id, email, github);
+    if(status === "Engineer") {
+      employee = new Engineer (name, id, email, github);
       console.log(employee);
-    } else if(role === "Intern") {
+    } else if(status === "Intern") {
       employee = new Intern (name, id, email, school);
       console.log(employee);
     }
@@ -104,5 +104,5 @@ managerQuestions()
     // .catch(callFailure);
 
 function callFailure() {
-  console.log("Something went wrong!");
+  console.error();
 }
