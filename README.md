@@ -6,6 +6,9 @@
   
   ## Descritpion
   Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.
+
+  ## GIF
+  ![Team Profile Builder](assets/teamgenerator.gif)
   ## Table Of Contents
   [Installation](#installation)
 

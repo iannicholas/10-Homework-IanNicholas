@@ -5,7 +5,7 @@ const managerCard = function (manager) {
       <div class="card h-100">
           <div class="card-header">
               <h3>${manager.name}</h3>
-              <h4>Manager</h4><i class="material-icons">content_paste</i>
+              <h4>Manager</h4>
           </div>
           <div class="card-body">
               <p class="id">ID: ${manager.id}</p>
@@ -24,7 +24,7 @@ const engineerCard = function (engineer) {
       <div class="card h-100">
           <div class="card-header">
               <h3>${engineer.name}</h3>
-              <h4>Engineer</h4><i class="material-icons">laptop_mac</i>
+              <h4>Engineer</h4>
           </div>
           <div class="card-body">
               <p class="id">ID: ${engineer.id}</p>
@@ -43,7 +43,7 @@ const internCard = function (intern) {
       <div class="card h-100">
           <div class="card-header">
               <h3>${intern.name}</h3>
-              <h4>Intern</h4><i class="material-icons">assignment_ind</i>
+              <h4>Intern</h4>
           </div>
           <div class="card-body">
               <p class="id">ID: ${intern.id}</p>
@@ -96,13 +96,13 @@ const buildTeam = function (teamCards) {
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
       <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"rel="stylesheet"/>
+      <link rel="stylesheet" href="styles.css">
   </head>
   <body>
       <header>
           <nav class="navbar" id="navbar">
-              <span class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">Your Team</span>
+              <h1 class="navbar-brand mb-0 h1 w-100 text-center" id="navbar-text">Your Team Profiles</h1>
           </nav>
       </header>
       <main>
@@ -115,7 +115,7 @@ const buildTeam = function (teamCards) {
       </main>
       
   </body>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"</script>
   </html>
 `
 };
